@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monto de dinero</title>
+</head>
+<body>
+  <script>
+
+let nombre = prompt("¿como te llama?");
+
+let edad = prompt("¿Que edad tienes?");
+
+let monto = Number.parseInt( prompt("¿Que cantidad tienes en pesos?") );
+
+console.log(monto);
+
+
+
+// convertir la adad en numero
+edad = Number.parseInt(edad);
+
+let tasaDelDollar = 54.3;
+
+let conversionEnDollar = monto / tasaDelDollar;
+
+
+//console.log(`La conversion es: ${conversionEnDollar.toFixed(2)}`);
+
+console.log(`Haz digitado ${monto} pesos. La tasa del dollar es: ${tasaDelDollar}. tu conversion es igual a ${conversionEnDollar.toFixed(2)}`);  
+  </script>  
+</body>
+</html>
