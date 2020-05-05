@@ -1,3 +1,4 @@
+//Dijitando los dias de la semana usando array
 let nombre = prompt("Cual es tu nombre");
 
 let edad = prompt("Cual es tu edad");

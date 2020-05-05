@@ -30,6 +30,7 @@ console.table(artitaFavorito);
 console.table(dijiteCancione);
 
 
+//Contatenando datos personales 
 console.log(`Cual es el nombre de tu artista farito: ${artitaFavorito.nombre}`);
 
 console.log(`Cual es la edad de tu artista favorito: ${artitaFavorito.edad}`);

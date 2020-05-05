@@ -42,7 +42,7 @@ quintoPais: prompt("Dijete el quinto pais")
 
 
 
- 
+// imprimiendo los datos del usuario por la consola  
 console.table(datos);
 
 console.table(datosPersonales);
