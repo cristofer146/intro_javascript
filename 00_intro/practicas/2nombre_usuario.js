@@ -1,3 +1,5 @@
+
+//Dijitando Datos familiares usando array
 let nombre = prompt("Cual es tu nombre");
 
 let edad = prompt("Cual es tu edad");
