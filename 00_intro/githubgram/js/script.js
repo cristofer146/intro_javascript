@@ -45,7 +45,7 @@ async function obtenerDatosGitHub() {
 
     let inforUsuario = await respuesta.json();
 
-    imgPerfil.src = "https://avatars3.githubusercontent.com/u/59875474?v=4";
+    imgPerfil.src = inforUsuario.avatar_url;
 
     tituloNombre.textContent = inforUsuario.name;
 
