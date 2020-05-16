@@ -1,3 +1,4 @@
+//Seleccionar los elementos
 const imgPerfil = document.querySelector(".imagen_perfil");
 
 const tituloNombre = document.querySelector("h2.nombre");
