@@ -1,0 +1,11 @@
+body {
+/*background-color: black;*/
+}
+
+h1.resaltado {
+    background-color: aqua;
+}
+
+h1.color-red {
+    color: red;
+}

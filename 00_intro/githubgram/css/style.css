@@ -1,0 +1,27 @@
+img.imagen_perfil {
+    width: 301px;
+}
+
+body {
+background: url(https://previews.123rf.com/images/juliadeep/juliadeep1608/juliadeep160800051/61603355-vector-sin-patr%C3%B3n-con-los-puntos-diferentes-formas-mano-abstracto-doodle-formulario-para-fondo-de-panta.jpg);
+}
+
+h1 {
+    color: blue;
+}
+
+div{
+    color: rgb(17, 9, 2);
+    font-size: 25px;
+}
+
+
+h2 {
+    margin: 16px auto;
+
+    
+}
+
+img{
+    padding: 15px;
+}
