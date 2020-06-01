@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    
+    <p id="ejemplo">En este párrafo se mostrará la opción clickada por el usuario</p>
+ 
+    <button onclick="alerta()">Clicka para mostrar mensaje</button>
+
+
+
+<script>
+function alerta() 
+{
+var mensaje;
+var opcion = prompt("Introduzca su nombre:",);
+var msj = ("uste escribio un mensaje")
+
+if (opcion == null || opcion == "") {
+        mensaje = "Has cancelado o introducido el nombre vacío";
+        } else {
+            mensaje = "Hola " + opcion+msj;
+            }
+            document.getElementById("ejemplo").innerHTML = mensaje;
+}
+
+
+
+
+
+    
+</script>
+
+</body>
+</html>

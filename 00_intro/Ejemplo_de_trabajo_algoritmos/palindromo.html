@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function esPalindromo( cadena ) {
+        t = cadena.length;
+         
+       //si la cadena esta vacia no es palindromo
+
+        if (t == 0) {
+          return false;
+        }
+
+        for(i = 0; i<t/2;i++) {
+          if (cadena[i] != cadena[t-1-i]) {
+              return false;
+          }
+        }
+        return true;
+      }
+
+      document.write( esPalindromo("anitalavalatina") ); //regresar true
+      document.write( esPalindromo("holamundo")); //regresar false
+    </script>
+  </body>
+</html>
